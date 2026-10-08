@@ -1,0 +1,42 @@
+# Data and generated artifacts
+data/
+outputs/
+logs/
+source/**/outputs/
+source/**/logs/
+results/predictions/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Local packages and archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.docx
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
